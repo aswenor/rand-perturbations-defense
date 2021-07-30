@@ -33,4 +33,4 @@ attack_args = textattack.AttackArgs(num_examples=100, shuffle=True, silent=True)
 
 ## Credits
 [TextAttack Library](https://github.com/QData/TextAttack)\
-[HuggingFace Transformers Library](https://huggingface.co/transformers/)🤗
+🤗[HuggingFace Transformers Library](https://huggingface.co/transformers/)
