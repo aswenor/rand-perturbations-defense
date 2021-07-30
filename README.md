@@ -4,13 +4,13 @@
 Deep learning models have excelled in solving many difficult problems in Natural Language Processing (NLP), but it has been demonstrated such models to be susceptible to extensive vulnerabilities. These NLP models are vulnerable to adversarial attacks which is exacerbated by the use of public datasets that typically are not manually inspected before use. We offer two defense methods against these attacks that use random perturbations. We performed tests that showed our Random Perturbations Defense and our Increased Randomness Defense to both be effective in returning attacked models to their original accuracy (before attacks) for 6 different attacks from the TextAttack library. 
 
 ## Dependencies 
-### Defense Methods
+#### Defense Methods
 * Natural Language Toolkit (nltk)
 * pyspellchecker
 * transformers
 * clean-text
 
-### Data Generation
+#### Data Generation
 * TextAttack
 * transformers
 * tqdm 4.61
@@ -33,4 +33,4 @@ attack_args = textattack.AttackArgs(num_examples=100, shuffle=True, silent=True)
 
 ## Credits
 [TextAttack Library](https://github.com/QData/TextAttack)\
-[HuggingFace Transformers Library](https://huggingface.co/transformers/)🤗\
+[HuggingFace Transformers Library](https://huggingface.co/transformers/)🤗
