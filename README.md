@@ -33,7 +33,9 @@ attack_args = textattack.AttackArgs(num_examples=100, shuffle=True, silent=True)
 Both methods exist within the defense_methods folder. Our Random Peturbations Defense has options for tuning with the parameters `l` and `k` which have the following properties:
 * `l` = number of replicates made for each sentence in a review
 * `k` = number of random corrections made for each replicate
+
 We recommend using `l` = 7 and `k` = 5 for a starting point as this is what we recieved our best results with. You can also choose which attack method you would like to test on. The perturbed data in the attacked_data folder is preset as options in our existing code. You can change the value of `data_to_use` to choose the data you want to use for your tests.
+
 Our Increased Randomness Defense has options for tuning with a single parameter `k` which has the following property:
 * `k` = number of replicates made from randomly selected sentences in a review
 We recommend using `k` = 41 for a starting point as this is what we recieved our best results with. Again, you can choose which attack method you would like to test on using the same steps as the previous defense method. 
