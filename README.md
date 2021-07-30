@@ -20,3 +20,7 @@ More data can be generated using our data_generation file. You must select the `
 attack_args = textattack.AttackArgs(num_examples=100, shuffle=True, silent=True)
 ```
 ## Using our Defense Methods
+
+## Credits
+[TextAttack Library](https://github.com/QData/TextAttack)
+[HuggingFace Transformers Library](https://huggingface.co/transformers/)
