@@ -38,6 +38,7 @@ We recommend using `l` = 7 and `k` = 5 for a starting point as this is what we r
 
 Our Increased Randomness Defense has options for tuning with a single parameter `k` which has the following property:
 * `k` = number of replicates made from randomly selected sentences in a review
+
 We recommend using `k` = 41 for a starting point as this is what we recieved our best results with. Again, you can choose which attack method you would like to test on using the same steps as the previous defense method. 
 
 ## Credits
