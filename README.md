@@ -6,5 +6,17 @@ Deep learning models have excelled in solving many difficult problems in Natural
 ## Dependencies 
 
 ## Data & Data Generation
+We use the TextAttack library to generate data to test on. The data we used to test our methods can be found in the attacked_data folder. The following attack methods were used to generate 100 perturbed reviews from the IMDB dataset:
+* BERT-Based Adversarial Examples (BAE)
+* DeepWordBug
+* Faster Alzantot Genetic Algorithm
+* Kuleshov
+* Probability Weighted Word Saliency (PWWS)
+* TextBugger
+* TextFooler
 
+More data can be generated using our data_generation file. You must select the `model_wrapper` to use and the attack recipe `model` you would like to use. You can change the number of examples to create by changing the `num_examples` variable in this line:
+```python
+attack_args = textattack.AttackArgs(num_examples=100, shuffle=True, silent=True)
+```
 ## Using our Defense Methods
